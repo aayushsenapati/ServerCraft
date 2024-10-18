@@ -1,6 +1,10 @@
 {
-  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/main/.schema/devbox.schema.json",
-  "packages": ["rustup@latest"],
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/main/.schema/devbox.schema.json",
+  "packages": [
+    "rustup@latest",
+    "nmap@latest",
+    "netcat-gnu@latest"
+  ],
   "shell": {
     "init_hook": [
       "rustup default stable",

@@ -1,6 +1,102 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "netcat-gnu@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#netcat-gnu",
+      "source": "devbox-search",
+      "version": "0.7.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/79b28layhm9fn451snmmc0ifnis53zhf-netcat-gnu-0.7.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/79b28layhm9fn451snmmc0ifnis53zhf-netcat-gnu-0.7.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cpla94i16p2czdaz9zkra0f8frprkn8p-netcat-gnu-0.7.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cpla94i16p2czdaz9zkra0f8frprkn8p-netcat-gnu-0.7.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d7vyyid1jkwlaajx7mpv2hcfbpwklr7h-netcat-gnu-0.7.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/d7vyyid1jkwlaajx7mpv2hcfbpwklr7h-netcat-gnu-0.7.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/74fas46adr5q03n26m0dijls7ldw25p5-netcat-gnu-0.7.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/74fas46adr5q03n26m0dijls7ldw25p5-netcat-gnu-0.7.1"
+        }
+      }
+    },
+    "nmap@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#nmap",
+      "source": "devbox-search",
+      "version": "7.95",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zqg9b7qa30mjp6fknwklhydnvaawngwz-nmap-7.95",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zqg9b7qa30mjp6fknwklhydnvaawngwz-nmap-7.95"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7c5ga6552rb6rymk3r64sq848k15084w-nmap-7.95",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7c5ga6552rb6rymk3r64sq848k15084w-nmap-7.95"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rbkhn5i1772f3359k0s8i84f0v79x1g2-nmap-7.95",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rbkhn5i1772f3359k0s8i84f0v79x1g2-nmap-7.95"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3xnjmwzggddzxb6wgg56skpznbrcxqb6-nmap-7.95",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3xnjmwzggddzxb6wgg56skpznbrcxqb6-nmap-7.95"
+        }
+      }
+    },
     "rustup@latest": {
       "last_modified": "2024-09-10T15:01:03Z",
       "plugin_version": "0.0.1",
