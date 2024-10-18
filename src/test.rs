@@ -2,7 +2,7 @@ use std::io::{Read, Write};
 use std::net::TcpStream;
 use std::str;
 
-fn main() -> std::io::Result<()> {
+fn test() -> std::io::Result<()> {
     // Connect to the Minecraft server
     let mut stream = TcpStream::connect("127.0.0.1:9191")?;
 
@@ -46,6 +46,7 @@ fn main() -> std::io::Result<()> {
         println!("Max Players: {}", part3);
     } else {
         println!("Failed to parse server response into three parts.");
+
     }
 
     Ok(())
